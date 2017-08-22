@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cXML SYSTEM "http://xml.cxml.org/schemas/cXML/1.2.014/cXML.dtd">
+<cXML xml:lang="en-US" payloadID="2222222222222222222222@birchstreet.com" timestamp="Tue, 28 Jun 2016 17:15:05 +0000">
+  <Header>
+    <From>
+      <Credential domain="NetworkId">
+        <Identity>1234</Identity>
+      </Credential>
+    </From>
+    <To>
+      <Credential domain="DUNS">
+        <Identity>1234</Identity>
+      </Credential>
+    </To>
+    <Sender>
+      <Credential domain="NetworkId">
+        <Identity>realLightning</Identity>
+        <SharedSecret>LiGHTM3Up</SharedSecret>
+      </Credential>
+      <UserAgent>Coupa Procurement 1.0</UserAgent>
+    </Sender>
+  </Header>
+  <Request>
+    <PunchOutSetupRequest operation="create">
+      <BuyerCookie>5e3a5fc7bf9e9dfc3ec50947da424952</BuyerCookie>
+      <Extrinsic name="FirstName">Kara</Extrinsic>
+      <Extrinsic name="LastName">Seiler</Extrinsic>
+      <Extrinsic name="UniqueName">kseiler</Extrinsic>
+      <Extrinsic name="UserEmail">KaraSeiler@forestcity.net</Extrinsic>
+      <Extrinsic name="User">kseiler</Extrinsic>
+      <Extrinsic name="BusinessUnit">COUPA</Extrinsic>
+      <BrowserFormPost>
+        <URL>https://forestcity-test.coupahost.com/punchout/checkout?id=8</URL>
+      </BrowserFormPost>
+      <Contact role="endUser">
+        <Name xml:lang="en-US">kseiler</Name>
+        <Email>KaraSeiler@forestcity.net</Email>
+      </Contact>
+      <SupplierSetup>
+        <URL>http://reallighting.com/RLTestCart/receiveXML.php</URL>
+      </SupplierSetup>
+    </PunchOutSetupRequest>
+  </Request>
+</cXML>

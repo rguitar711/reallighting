@@ -1,0 +1,2073 @@
+/* STYLE SHEET FOR THE ECT CART PAGE */
+.buybutton{
+vertical-align:bottom;
+}
+/* CART CONTAINER */
+div.cartcontentsdiv{width: 1000px;float: right;}
+
+/* BACK ORDER */
+div.cartbackorder{
+float:left;
+width:98%;
+font-weight:bold;
+}
+
+/* LOW STOCK WARNING */
+div.cartoutstock{
+float:left;
+width:98%;
+font-weight:bold;
+margin:6px 0px 6px 0px;
+}
+
+div.cartstockacceptlevel{
+float:left;
+width:98%;
+font-weight:bold;
+margin:6px 0px 6px 0px;
+}
+
+div.cartoptionoutstock{
+text-align:center;
+}
+
+/* TOP ROW */
+div.cartdetails_cntnr{
+	float: right;
+	width: 1000px;
+	white-space: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.cartdetails{
+	display:inline-block;
+	border-bottom:1px solid #999;
+	padding-bottom:6px;
+	margin:10px 0px 6px 0px;
+}
+
+div.cartdetailsid{
+	width: 16%;
+}
+div.cartdetailsname{
+	width: 15%;
+}
+div.cartdetailsprice{
+	width:10%;
+}
+div.cartdetailsquant{
+	width: 20%;
+}
+div.cartdetailstotal{
+	width: 11%;
+	text-align: left;
+}
+div.cartdetailscheck{
+	width:3%;
+}
+div.cartdetailscheckbox{
+	width: 13%;
+}
+div.cartdetailslocationdropbox{
+	width: 8%;
+}
+
+
+/* PRODUCT ROW */
+div.cartline{
+	float:left;
+	width:100%;
+	white-space:nowrap;
+	padding-bottom: 7px;
+	margin-bottom: 6px;
+}
+
+div.cartlineid{
+	width: 16%;
+	display:inline-block;
+	white-space:normal; 
+	/* If you don't use the image in cart, remove this line */
+	line-height: normal;}
+div.cartlinename{
+	width: 16%;
+	display:inline-block;
+	white-space: normal;
+}
+div.cartlineprice{
+	width:10%;
+	display:inline-block; 
+	white-space:normal;
+}
+div.cartlinequant{
+	width:10%;
+	display:inline-block; 
+	white-space:normal;
+}
+div.cartlinecheck{
+	width: 9%;
+	display:inline-block;
+	text-align: left;
+	vertical-align:middle;
+}
+div.cartlinetotal{
+	width: 3%;
+	display:inline-block;
+	white-space:normal;
+	text-align: left;
+}
+/* Created for New Cart New Resposive Design Cust Cart Page Variable  My Home Page Check Box*/
+
+div.cartlinecheckbox{
+	width: 19%;
+	display:inline-block;
+	white-space:normal;
+	text-align:center;
+	vertical-align:middle;
+}
+
+/* Created for New Cart New Resposive Design Cust Cart Page Variable My Home Page Product Location Dropbox */
+div.cartlinelocationdropbox{
+	width:10%;
+	display:inline-block; 
+	white-space:normal;
+	text-align:center;
+	vertical-align:middle; 
+}
+
+
+/* OPTIONS ROW */
+div.cartoptionsline{
+	float:left;
+	width:100%;
+	white-space:nowrap;
+	padding:2px 2px 6px 2px;
+	margin:1px 1px 12px 1px;
+}
+
+div.cartandoptsline{
+	width: 100%;
+	display:inline-block; 
+	float:left;
+	margin-bottom:12px;
+}
+div.cartoptiongroup{
+	width:25%;
+	display:inline-block; 
+	white-space:normal;
+	font-size:0.9em;
+}
+div.cartoption{
+	width:35%;
+	display:inline-block; 
+	white-space:normal;
+	font-size:0.9em;
+}
+div.cartoptionprice{
+	width:14%;
+	display:inline-block; 
+	white-space:normal;
+	font-size:0.9em;
+}
+div.cartoptionoutstock{
+	width:7%;
+	display:inline-block; 
+	white-space:normal;
+}
+div.cartoptiontotal{
+	width:18%;
+	display:inline-block; 
+	white-space:normal;
+	text-align:right;
+	font-size:0.9em;
+}
+
+/* PACKAGE FEATURE */
+
+div.packagediv{
+float:left;
+width:100%;
+}
+
+div.packagerow{
+float:left;
+width:100%;
+}
+
+/* LOYALTY POINTS */
+div.cartloyaltypoint_cntnr{
+float:left;
+width:99%;
+}
+
+div.cartloyaltypointmenu{
+float:left;
+width:77%;
+text-align:right;
+}
+
+div.cartloyaltypoints{
+float:left;
+width:18%;
+text-align:left;
+padding-left: 4px;
+}
+
+
+/* SHIPPING */
+div.cartshippingandtotals{float:left;width: 66%;margin-bottom:12px;}
+
+div.cartshippingdetails{
+float:left;
+width:60%;
+padding:1px;
+margin:1px;
+}
+
+div.estimatorerrors{
+width:98%;
+float:left;
+margin-bottom:12px;
+}
+
+div.estimatortitle{
+width:98%;
+float:left;
+font-size:1.2em;
+padding-bottom:6px;
+}
+
+div.cartestimatortext{
+display:inline-block; 
+white-space:normal;
+width:100%;
+margin-bottom:12px;
+}
+
+div.estimatorchecktext{
+display:inline-block; 
+white-space:normal;
+width:49%;
+}
+
+div.estimatorcheckcarrier{
+display:inline-block; 
+white-space:normal;
+width:49%;
+}
+
+div.shipline{
+  width:98%;
+  float:left;
+}
+
+div.shiplinetext{
+width:70%;
+  float:left;
+}
+
+div.shipradio{
+  width:25%;
+  float:left;
+}
+
+div.cartstateselectortext{
+display:inline-block; 
+white-space:normal;
+width:20%;
+}
+
+div.cartstateselector{
+display:inline-block; 
+white-space:normal;
+width:77%;
+}
+
+div.cartcountryselectortext{
+display:inline-block; 
+white-space:normal;
+width:20%;
+}
+
+div.cartcountryselector{
+display:inline-block; 
+white-space:normal;
+width:77%;
+}
+
+div.cartzipselectortext{
+display:inline-block; 
+white-space:normal;
+width:20%;
+margin-top:8px;
+}
+
+div.cartzipselector{
+display:inline-block; 
+white-space:normal;
+width:77%;
+margin-top:8px;
+}
+
+div.cartestimatorend{
+float:left;
+width:98%;
+margin-top:12px;
+}
+
+/* TOTALS */
+div.carttotals{
+	float:left;
+	width: 38%;
+}
+
+div.cartsubtotal_cntnr{
+	float:left;
+	width:100%;
+	white-space:nowrap;
+}
+
+div.cartsubtotaltext{
+	display:inline-block; 
+	white-space:normal;
+	width:53%;
+	margin:6px 0px 6px 0px;
+}
+
+div.cartsubtotal{
+	display:inline-block; 
+	white-space:normal;
+	width:45%;
+	text-align:right;
+}
+
+div.shippingtotaltext{
+	display:inline-block; 
+	white-space:normal;
+	width:53%;
+	margin-bottom:6px;
+}
+
+div.shippingtotal{
+	display:inline-block; 
+	white-space:normal;
+	width:45%;
+	text-align:right;
+}
+
+div.cartcountrytaxtext{
+	display:inline-block; 
+	white-space:normal;
+	width:53%;
+	margin-bottom:6px;
+}
+
+div.cartcountrytax{
+	display:inline-block; 
+	white-space:normal;
+	width:45%;
+	text-align:right;
+}
+
+div.cartdiscountstext{
+	display:inline-block; 
+	white-space:normal;
+	width:53%;
+	margin-bottom:6px;
+}
+
+div.cartdiscounts{
+	display:inline-block; 
+	white-space:normal;
+	width:45%;
+	text-align:right;
+}
+
+div.cartcoupontext{
+	display:inline-block; 
+	white-space:normal;
+	width:99%;
+	margin-bottom:6px;
+}
+
+div.cartcoupon{
+	display:inline-block; 
+	white-space:normal;
+	width:99%;
+}
+
+div.cartgiftcerttext{
+	display:inline-block; 
+	white-space:normal;
+	width:53%;
+	margin-bottom:6px;
+}
+
+div.cartgiftcert{
+	display:inline-block; 
+	white-space:normal;
+	width:45%;
+	text-align:right;
+}
+
+div.cartgrandtotaltext{
+	display:inline-block; 
+	white-space:normal;
+	width:53%;
+	margin-bottom:6px;
+	padding: 3px 0px;
+	font-size:1.1em;
+/* border-top:1px solid #999;  Uncomment this line if you want a border above the grand total*/
+	border-bottom:1px solid #999;
+}
+
+div.cartgrandtotal{
+	display:inline-block; 
+	white-space:normal;
+	width:45%;
+	padding: 3px 0px;
+	text-align:right;
+	font-size:1.1em;
+/* border-top:1px solid #999;  Uncomment this line if you want a border above the grand total*/
+	border-bottom:1px solid #999;
+}
+
+div.cartcontinueupdate{
+width:100%;
+float:right;
+}
+
+div.cartcontinue{
+	width: 21%;
+	float: left;
+	text-align: left;
+}
+
+div.cartupdate{
+	width:50%;
+	float:right;
+}
+
+div.cartcheckoutbuttons{
+	float:left;
+	width: 93%;
+	margin-top:18px;
+	text-align:right;
+}
+
+div.checkoutopts{
+	float:right;
+	width: 140px;
+	text-align:right;
+}
+
+div.cominpurchase{
+  float:left;
+  width:100%;
+  text-align:center;
+  margin:6px 0px 6px 0px;
+  padding:6px;
+  border:1px solid #ccc;
+  background:#eee;
+}
+
+div.tofreeshipping{
+  float:left;
+  width:100%;
+  text-align:center;
+  margin:6px 0px 6px 0px;
+  padding:6px;
+  border:1px solid #ccc;
+  background:#eee;
+}
+
+div.coforcelogin{
+  float:left;
+  width:100%;
+  text-align:center;
+  margin:6px 0px 6px 0px;
+  padding:6px;
+  border:1px solid #ccc;
+  background:#eee;
+}
+
+
+/* DISCOUNT FORMATTING */
+div.ectdscntt{
+color:#AD2803;
+}
+
+div.ectdscnt{
+color:#AD2803;
+}
+
+/* COUPON FORMATTING */
+#cpncodespan{
+font-size:0.8em;
+}
+
+#cpncodespan div{
+padding: 4px 12px 4px 0px;
+}
+
+
+/* ERROR / WARNING FORMATTING */
+div.ectwarning{
+color:#AD2803;
+}
+
+div.estimatorerror{
+color:#AD2803;
+}
+
+
+/* NEW ACCOUNT */
+
+div.cartnewaccountheader{
+width:100%;
+float:left;
+border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 16px 0px;
+font-size:1.2em;
+}
+
+div.cartnewaccount{
+float:left;
+width:100%;
+font-size:1.2em;
+border-bottom:1px solid #999;
+padding-bottom: 6px;
+margin-bottom:12px;
+}
+
+div.cartloginsuccess{
+float:left;
+width:100%;
+  text-align:center;
+  padding:6px 0px;
+}
+
+div.cartloginsuccesswait{
+float:left;
+width:100%;
+  text-align:center;
+  padding:6px 0px;
+}
+
+div.cartacctloginname_cntnr{
+  float:left;
+  width:100%;
+}
+
+div.cartacctloginnametext{
+float:left;
+width:25%;
+  padding-top:8px;
+}
+
+div.cartacctloginname{
+float:left;
+width:75%;
+    padding-top:8px;
+}
+
+div.cartacctloginallowpromo_cntnr{
+  float:left;
+  width:100%;
+}
+
+div.cartaccloginallowpromo{
+float:left;
+width:25%;
+text-align:right;
+}
+
+div.cartaccloginallowpromotext{
+float:left;
+width:73%;
+padding-left:3px;
+}
+
+div.cartacctloginemail_cntnr{
+  float:left;
+  width:100%;
+}
+
+div.cartaccloginemailtext{
+float:left;
+width:25%;
+padding-top:8px;
+}
+
+div.cartaccloginemail{
+float:left;
+width:75%;
+padding-top:8px;
+}
+
+div.cartaccloginpassword_cntnr{
+  float:left;
+  width:100%;
+}
+
+div.cartaccloginpasswordtext{
+float:left;
+width:25%;
+  padding-top:8px;
+}
+
+div.cartaccloginpassword{
+float:left;
+width:75%;
+    padding-top:8px;
+}
+
+div.cartaccloginextra1text{
+float:left;
+width:25%;
+  padding-top:8px;
+}
+
+div.cartaccloginextra1{
+float:left;
+width:75%;
+    padding-top:8px;
+}
+
+div.cartaccloginalsubmit{
+float:left;
+width:100%;
+text-align:right;
+}
+
+/* LOGIN */
+div.loginprompt{
+float:left;
+width:100%;
+}
+
+div.logintoaccount{
+width:50%;
+float:left;
+}
+
+div.createaccount{
+width:50%;
+float:left;
+}
+
+div.cartloginheader{
+float:left;
+width:100%;
+font-size:1.2em;
+padding-bottom: 6px;
+margin-bottom:12px;
+}
+
+div.cartloggedin{
+float: left;
+width: 1000px;
+font-size:1.1em;
+padding-bottom: 6px;
+margin-bottom: 0px;
+white-space: nowrap;
+}
+
+div.cartloginemail_cntnr{
+float:left;
+width:100%;
+}
+
+div.cartloginemailtext{
+float:left;
+width:25%;
+padding-top:8px;
+}
+
+div.cartloginemail{
+float:left;
+width:75%;
+    padding-top:8px;
+}
+
+div.cartloginpwd_cntnr{
+float:left;
+width:100%;
+}
+
+div.cartloginpwdtext{
+float:left;
+width:25%;
+  padding-top:8px;
+}
+
+div.cartloginpwd{
+float:left;
+width:75%;
+    padding-top:8px;
+}
+
+div.cartlogincookie_cntnr{
+float:left;
+width:100%;
+}
+
+div.cartlogincookie{
+float:left;
+width:25%;
+  text-align:right;
+    padding-top:8px;
+}
+
+div.cartlogincookietext{
+float:left;
+width:72%;
+padding-left:6px;
+padding-top:8px;
+}
+
+div.cartloginbuttons{
+width:100%;
+float:left;
+margin-top:12px
+}
+
+div.cartloginlogin{
+width:20%;
+float:left;
+}
+
+div.cartloginnewacct{
+width:35%;
+float:left;
+}
+
+div.cartloginforgotpwd{
+width:45%;
+float:left;
+text-align:right;
+}
+
+/* WISH LIST */
+div.cartviewinglist{
+float:left;
+width:100%;
+}
+
+span.listname{
+font-weight:normal;
+}
+
+#savecartlist{
+background:#fcfcfc;
+}
+
+/* EMPTY CART */
+div.emptycart{
+float:left;
+text-align:center;
+width:100%;
+}
+
+div.sorrycartempty{
+float:left;
+width:100%;
+  margin-top:10px;
+  padding:8px;
+}
+
+div.cartemptyclickhere{
+float:left;
+width:100%;
+  padding:8px;
+}
+
+div.emptycartviewmain{
+float:left;
+width:100%;
+    padding:8px;
+}
+
+div.emptycartcontinue{
+float:left;
+width:100%;
+    padding:8px;
+}
+
+div.mywishlistemptycart{
+float:left;
+width:100%;
+}
+
+div.emptycartemptylist{
+float:left;
+width:100%;
+}
+
+/* MAILING LIST CONFIRMATION */
+
+div.cartemailconftitle{
+width:100%;
+float:left;
+text-align:center;
+padding:8px 0px;
+}
+
+div.cartemailconfaction{
+width:100%;
+float:left;
+text-align:center;
+padding:8px 0px;
+}
+
+div.cartemailconfcontinue{
+width:100%;
+float:left;
+text-align:center;
+padding:8px 0px;
+}
+
+/* GIFT WRAP */
+div.giftwrap{
+  float:left;
+  width:100%;
+}
+
+div.giftwrapdiv{
+float:left;
+width:100%;
+white-space:nowrap;
+padding:2px;
+margin:1px
+}
+
+div.giftwrapdetailscntr{
+display:inline-block; 
+white-space:normal;
+}
+
+div.giftwrapid{
+width:25%;
+float:left;
+  border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+}
+
+div.giftwrapname{
+width:25%;
+float:left;
+  border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+}
+
+div.giftwrapquant{
+width:25%;
+float:left;
+  border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+}
+
+div.giftwrapyes{
+width:25%;
+float:left;
+  border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+}
+
+div.giftwrapupdate{
+width:100%;
+float:left;
+}
+
+div.giftwraplineid{
+display:inline-block; 
+white-space:normal;
+width:25%;
+vertical-align:top;
+}
+
+div.giftwraplinename{
+display:inline-block; 
+white-space:normal;
+width:25%;
+  vertical-align:top;
+}
+
+div.giftwraplinequant{
+display:inline-block; 
+white-space:normal;
+width:25%;
+  vertical-align:top;
+}
+
+div.giftwraplineyes{
+display:inline-block; 
+white-space:normal;
+width:25%;
+  vertical-align:top;
+}
+
+div.giftwraptmessage{
+width:17%;
+float:left;
+}
+
+div.giftwrapmessage{
+width:99%;
+float:left;
+}
+
+div.giftwraplinemessage{
+width:98%;
+}
+
+div.giftwraplinemessage textarea{
+  width:100%;
+}
+
+div.giftwrapbuttons{
+  width:100%;
+  float:left;
+  text-align:right;
+  margin-top:12px;
+}
+
+/* BILLING & SHIPPING */
+
+div.cart2details{
+  width:98%;
+  float:left;
+}
+
+div.cart2header{
+width:100%;
+float:left;
+  border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+  font-size:1.2em;
+}
+
+div.billformrow{
+  float:left;
+  width:100%;
+}
+
+div.shipformrow{
+  float:left;
+  width:100%;
+}
+
+div.checkoutadditionals{
+  float:left;
+  width:100%;
+}
+
+div.cobhl2{
+padding-top:8px;
+}
+
+div.cobll2{
+padding-top:8px;
+
+}
+
+div.cdformtextra1{
+float:left;
+width:30%;
+}
+
+div.cdformextra1{
+float:left;
+width:70%;
+}
+
+div.cdformtname{
+float:left;
+width:30%;
+}
+
+div.cdformname{
+float:left;
+width:70%;
+}
+
+div.cdformtemail{
+float:left;
+width:30%;
+}
+
+div.cdformemail{
+float:left;
+width:70%;
+}
+
+div.cdformtaddress{
+float:left;
+width:30%;
+}
+
+div.cdformaddress{
+float:left;
+width:70%;
+}
+
+div.cdformtaddress2{
+float:left;
+width:30%;
+}
+
+div.cdformaddress2{
+float:left;
+width:70%;
+}
+
+div.cdformtcity{
+float:left;
+width:30%;
+}
+
+div.cdformcity{
+float:left;
+width:70%;
+}
+
+div.cdformtstate{
+float:left;
+width:30%;
+}
+
+div.cdformstate{
+float:left;
+width:70%;
+}
+
+div.cdformtcountry{
+float:left;
+width:30%;
+}
+
+div.cdformcountry{
+float:left;
+width:70%;
+}
+
+div.cdformtzip{
+float:left;
+width:30%;
+}
+
+div.cdformzip{
+float:left;
+width:70%;
+}
+
+div.cdformtphone{
+float:left;
+width:30%;
+}
+
+div.cdformphone{
+float:left;
+width:70%;
+}
+
+div.cdformtextra2{
+float:left;
+width:30%;
+}
+
+div.cdformextra2{
+float:left;
+width:70%;
+}
+
+div.coshipflagscontainer{
+  float:left;
+  width:100%;
+  margin-bottom:12px
+}
+
+div.cdshipftflag{
+float:left;
+width:32% !important;
+text-align:right;
+padding-right:11px;
+padding-top:12px;
+}
+
+div.cdshipflag{
+float:left;
+width:66% !important;
+padding-top:12px;
+font-size:0.9em;
+}
+
+div.cdformtwillpickup{
+float:left;
+width:32% !important;
+text-align:right;
+padding-right:11px;
+padding-top:12px;
+}
+
+div.cdformwillpickup{
+float:left;
+width:66% !important;
+padding-top:12px;
+font-size:0.9em;
+}
+
+div.cdshiptterms{
+float:left;
+width:32% !important;
+text-align:right;
+padding-right:11px;
+padding-top:12px;
+}
+
+div.cdshipterms{
+float:left;
+width:66% !important;
+padding-top:12px;
+font-size:0.9em;
+}
+
+div.cdformtextraco1{
+float:left;
+width:30%;
+}
+
+div.cdformextraco1{
+float:left;
+width:70%;
+}
+
+div.cdformtextraco2{
+float:left;
+width:30%;
+}
+
+div.cdformextraco2{
+float:left;
+width:70%;
+}
+
+div.cdformtterms{
+float:left;
+width:32%;
+text-align:right;
+padding-right:11px;
+padding-top:12px;
+}
+
+div.cdformterms{
+float:left;
+width:66%;
+padding-top:12px;
+}
+
+div.cdformshipdiff{
+float:left;
+width:100%;
+padding:12px 0px 12px 0px;
+}
+
+input.cdformshipdiff{
+margin-right:12px;
+}
+
+div.cdformtaddinfo{
+float:left;
+width:30%;
+}
+
+div.cdformaddinfo{
+float:left;
+width:70%;
+}
+
+textarea.addinfo{
+width:90%;
+}
+
+div.cdformtremember{
+float:left;
+width:32%;
+text-align:right;
+padding-right:11px;
+padding-top:12px;
+}
+
+div.cdformremember{
+float:left;
+width:66%;
+padding-top:12px;
+}
+
+div.cdformtmailing{
+float:left;
+width:32%;
+text-align:right;
+padding-right:11px;
+padding-top:12px;
+}
+
+div.cdformmailing{
+float:left;
+width:66%;
+padding-top:12px;
+}
+
+div.cdformtcoupon{
+float:left;
+width:30%;
+padding-top:12px;
+}
+
+div.cdformcoupon{
+float:left;
+width:70%;
+padding-top:12px;
+}
+
+div.cdformtitle{
+float:left;
+width:100%
+}
+
+div.cdformtitlell{
+float:left;
+width:100%;
+}
+
+div.cdform2column{
+float:left;
+width:100%;
+}
+
+div.cdformtpayment{
+float:left;
+width:30%;
+clear:left;
+padding-top:12px;
+}
+
+div.cdformpayment{
+float:left;
+width:70%;
+padding-top:12px;
+}
+
+div.payprovider{
+float:left;
+width:100%;
+}
+
+div.payprovline{
+float:left;
+width:100%;
+margin-bottom:8px;
+}
+
+div.payprovline img{
+vertical-align:top;
+margin-left:12px;
+}
+
+div.checkoutbutton2{
+float:left;
+width:100%;
+text-align:right;
+}
+
+div.cdformsubmit{
+float:left;
+width:100%;
+}
+
+/* SHIPPING TOTALS SCREEN */
+
+div.cart3details{
+width:98%;
+float:left;
+}
+
+div.cartheader{
+width:100%;
+float:left;
+font-size:1.2em;
+}
+
+div.cart3header{
+border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+font-size:1.2em;
+}
+
+div.cart2column{
+width:100%;
+float:left;
+padding-bottom:6px;
+margin:12px 0px 6px 0px;
+}
+
+div.cart3row{
+width:100%;
+float:left;
+}
+
+div.cobhl3{
+width:30%;
+float:left;
+padding-bottom:6px;
+}
+
+div.cart3totgoodst {
+border-bottom:1px solid #ccc;
+  margin-bottom:12px;
+  font-size:1.1em;
+}
+
+div.cart3totgoods {
+border-bottom:1px solid #ccc;
+  margin-bottom:12px;
+    font-size:1.1em;
+}
+
+div.cobll3{
+width:70%;
+float:left;
+padding-bottom:6px;
+}
+
+div.shiprateline{
+width:100%;
+float:left;
+}
+
+div.shiptableline{
+width:100%;
+float:left;
+}
+
+div.shiprateradio{
+width:10%;
+float:left;
+}
+
+div.shipratemethod{
+width:65%;
+float:left;
+}
+
+div.shiptablelogo{
+height: 10em;
+position: relative;
+width:80px;
+height:60px;
+float:left;
+}
+
+div.shiptablelogo img{
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}
+
+div.shiptablerates{
+float:left;
+width:70%;
+min-height:45px;
+padding:18px 0px 0px 16px;
+}
+
+div.cartheading{
+width:100%;
+float:left;
+padding-bottom:6px;
+margin:12px 0px 16px 0px;
+border-bottom:1px solid #999;
+font-size:1.2em;
+}
+
+div.cart3gndtot {
+border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+margin-bottom:12px;
+padding-top:6px;
+font-size:1.2em;
+}
+
+div.cart3gndtott {
+border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+margin-bottom:12px;
+padding-top:6px;
+font-size:1.2em;
+}
+
+/* CREDIT CARD RESULTS SCREEN */
+
+div.cart4details{
+width:98%;
+float:left;
+}
+
+div.cart4header{
+width:100%;
+float:left;
+padding-bottom:6px;
+margin:12px 0px 16px 0px;
+border-bottom:1px solid #999;
+font-size:1.2em;
+}
+
+div.cobhl4{
+width:35%;
+float:left;
+margin-bottom:12px;
+padding-top:8px;
+}
+
+div.cobll4{
+width:65%;
+float:left;
+margin-bottom:12px;
+padding-top:8px;
+}
+
+div.cart4row{
+width:100%;
+float:left;
+}
+
+div.cart4buttons{
+width:100%;
+float:left;
+text-align:right;
+}
+
+div.checkoutbutton3{
+width:100%;
+float:left;
+text-align:right;
+}
+
+/* SECOND LINE TEXT ENTRIES */
+
+span.ectsmallnote{
+font-size:0.8em;
+}
+
+/* END OF CART CLASSES */
+
+
+/* STYLE SHEET FOR THE ECT SEARCH PAGE */
+
+/* Main div container */
+div.searchform{
+width:98%;
+float:left;
+}
+
+/* Search header div */
+div.searchheader{
+width:98%;
+float:left;
+border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 16px 0px;
+font-size:1.2em;
+}
+
+/* Search label divs */
+div.searchfortext, div.searchpricetext, div.searchtypetext, div.searchcategorytext, div.searchfilterstext{
+width:24%;
+float:left;
+padding:8px 4px;
+white-space:nowrap;
+}
+
+/* Search form field divs */
+div.searchfor, div.searchprice, div.searchtype, div.searchcategory, div.searchfilters{
+width:72%;
+float:left;
+padding:8px 4px;
+}
+
+/* Search form field formatting */
+div.searchfor input{
+width:80%;
+border: 1px solid #ccc;
+padding:6px;
+}
+
+div.searchprice input{
+border: 1px solid #ccc;
+padding:6px;
+}
+
+div.searchtype select{
+width:170px;
+padding:4px;
+}
+
+div.searchcategory select{
+width:170px;
+padding:4px;
+}
+
+/* Search filters set to 2 columns by 48% width - use 98% for one column */
+div.searchfiltergroup{
+padding:4px 0px;
+width:48%;
+float:left;
+}
+
+div.searchfiltergroup select{
+width:170px;
+padding:4px;
+}
+
+/* Div containing submit button */
+div.searchsubmit{
+width:98%;
+float:left;
+text-align:right;
+}
+
+
+/* END OF SEARCH CLASSES */
+
+
+/* STYLE SHEET FOR THE ECT AFFILIATE, ORDER STATUS, CLIENT LOGIN, TRACKING PAGES */
+
+/* Main div container */
+div.ectdiv{
+width:98%;
+float:left;
+margin-bottom:20px;
+}
+
+/* Header div */
+div.ectdivhead{
+width:98%;
+float:left;
+border-bottom:1px solid #999;
+padding-bottom:6px;
+margin:12px 0px 16px 0px;
+font-size:1.2em;
+}
+
+/* Label divs */
+div.ectdivleft{
+width:28%;
+float:left;
+padding:8px 4px;
+white-space:nowrap;
+clear:both;
+}
+
+/* Form field divs */
+div.ectdivright{
+width:68%;
+float:left;
+padding:8px 4px;
+}
+
+/* Form field formatting */
+div.ectdivright input{
+width:60%;
+border: 1px solid #ccc;
+padding:6px;
+}
+
+div.ectdivright select{
+width:63%;
+border: 1px solid #ccc;
+padding:6px;
+}
+
+div.ectdivright input[type=checkbox]{
+width:10px;
+}
+
+/* Div spanning 2 columns */
+div.ectdiv2column{
+width:98%;
+float:left;
+margin:8px 0px;
+}
+
+div.ectdiv2column ul{
+list-style:none;
+}
+
+/* Warning message on Order Status page */
+div.ectorderstatus div.ectwarning{
+width:98%;
+float:left;
+}
+
+/* Text based div */
+div.ectmessagescreen{
+  float:left;
+  width:98%;
+}
+
+div.ectmessagescreen input{
+ margin-top:12px;
+}
+
+/* Account details on client login */
+div.ectclientloginaccount div.ectdivleft{
+white-space:normal;
+}
+
+/* Address details on client login */
+div.ectclientloginaddress div.ectdivleft{
+width:48%;
+}
+
+div.ectclientloginaddress div.ectdivright{
+width:48%;
+}
+
+/* Gift registry on client login */
+div.ectclientlogingiftreg input{
+width:120px;
+}
+
+div.ectclientlogingiftreg input[type=button]{
+width:120px;
+}
+
+div.ectclientloginorders{
+float:left;
+}
+
+div.ectclientloginorders div{
+padding:6px;
+margin:4px;
+font-size:0.9em;
+}
+
+/* Tracking buttons */
+input.trackinggo{
+width:60px !important;
+margin-bottom:12px;
+}
+
+/* Tracking form */
+div.ecttracking div.ectdivcontainer{
+width:98%;
+float:left;
+}
+
+
+div.trackingselectlogo{
+float:left;
+width:90px;
+margin-top:8px;
+}
+
+
+div.ecttracking div.ectdivleft{
+width:42%;
+white-space:normal;
+float:left;
+clear:none !important;
+padding-top:0px !important;
+margin-top:8px;
+}
+
+div.ecttracking div.ectdivright{
+width:43%;
+float:left;
+padding-top:0px !important;
+margin-top:8px;
+}
+
+div.trackinglogo, div.trackingtext{
+float:left;
+padding:6px;
+}
+
+div.ecttrackingresults{
+float:left;
+width:98%
+}
+
+div.ecttrackingresults div{
+width:33%;
+}
+
+div.trackingcopyright{
+float:left;
+width:98%
+}
+
+/* Header row on Tracking form */
+div.tracktablehead div{
+padding:20px 0px 6px 4px;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+
+
+/* Shaded rows on Tracking form */
+div.ectlowlight{
+  background:#ededed;
+  padding:4px;
+  margin:2px;
+  font-size:0.9em;
+}
+
+div.ecthighlight{
+  background:#fefefe;
+    padding:4px;
+  margin:2px;
+    font-size:0.9em;
+}
+
+div.ectlowlight div{
+width:98%
+}
+
+div.ecthighlight div{
+width:98%
+}
+
+div.trackingcopyright{
+  float:left;
+  font-size:0.9em;
+}
+
+/* Gift Certificate form */
+div.ectgiftcerts{
+float:left;
+width:98%;
+}
+
+div.ectgiftcerts div.ectdivleft{
+width:38%;
+white-space:normal;
+}
+
+div.ectgiftcerts div.ectdivright{
+width:58%;
+}
+
+div.ectgiftcerts #amount{
+width:80px;
+}
+
+div.ectgiftcerts textarea{
+width:62%;
+border: 1px solid #ccc;
+}
+
+/* Donations form */
+div.ectdonations{
+float:left;
+width:98%;
+}
+
+div.ectdonations #amount{
+width:80px;
+}
+
+div.ectdonations textarea{
+width:62%;
+border: 1px solid #ccc;
+}
+
+
+/* FOR RESPONSIVE DESIGNS */
+
+
+/*The breakpoints below correspond to the cart page*/
+
+
+/*Styles for screens below 940px*/
+
+@media all and (max-width: 940px) {
+
+/* HIDE DETAILS COLUMN */
+div.cartdetailsid{
+display:none;
+}
+
+div.cartlineid{
+display:none;
+}
+
+/* MOVE ESTIMATE ABOVE TOTALS */  
+div.cartshippingdetails{
+width:100%;
+}
+  
+div.carttotals{
+ width:100%;
+}
+
+/* RESET COLUMNS */
+
+div.cartdetailsname{
+width:35%;
+}
+div.cartdetailsprice{
+width:21%;
+}
+div.cartdetailsquant{
+width:16%;
+}
+div.cartdetailstotal{
+width:17%;
+}
+div.cartdetailscheck{
+width:10%;
+}
+
+div.cartlinename{
+width:35%;
+}
+div.cartlineprice{
+width:21%;
+}
+div.cartlinequant{
+width:16%;
+}
+div.cartlinetotal{
+width:17%;
+}
+div.cartlinecheck{
+width:10%;
+}
+
+  
+/* REALIGN TOTALS */
+
+div.cartsubtotaltext{
+width:72%;
+}
+
+div.cartsubtotal{
+width:25%;
+}
+
+div.shippingtotaltext{
+width:72%;
+}
+
+div.shippingtotal{
+width:25%;
+}
+
+div.cartcountrytaxtext{
+width:72%;
+}
+
+div.cartcountrytax{
+width:25%;
+}
+  
+div.cartgiftcerttext{
+width:72%;
+}
+
+div.cartgiftcert{
+width:25%;
+}
+
+div.cartdiscountstext{
+width:72%;
+}
+
+div.cartdiscounts{
+width:25%;
+}
+  
+div.cartgrandtotaltext{
+width:72%;
+}
+
+div.cartgrandtotal{
+width:25%;
+}
+
+div.cartcoupontext{
+width:57%;
+}
+
+div.cartcoupon{
+width:40%;
+}
+  
+div.cdformtterms{
+width:6% !important;
+}
+
+div.cdformterms{
+width:90% !important;
+}
+  
+div.cdshipftflag{
+width:6% !important;
+}
+
+div.cdshipflag{
+width:90% !important;
+}
+
+div.cdshiptterms{
+width:6% !important;
+}
+
+div.cdshipterms{
+width:90% !important;
+}
+  
+div.cdformtwillpickup{
+width:6% !important;
+}
+
+div.cdformwillpickup{
+width:90% !important;
+}
+  
+div.cdformtremember{
+width:6% !important;
+}
+
+div.cdformremember{
+width:90% !important;
+}
+  
+div.cdformtmailing{
+width:6% !important;
+}
+
+div.cdformmailing{
+width:90% !important;
+}
+
+}
+
+/*This is a breakpoint for responsive designs and puts the search filters into one column*/
+@media screen and (max-width: 715px) {
+
+/* Puts the search filters into one column */
+div.searchfiltergroup{
+padding:4px 0px;
+width:95%;
+float:left;
+}
+
+
+/* Tracking form */
+div.ecttracking div.ectdivleft{
+width:95%;
+}
+
+div.ecttracking div.ectdivright{
+width:95%;
+}
+}
+
+
+
+/*Styles for screens below 480px on the cart page*/
+
+@media all and (max-width: 480px) {
+  
+div.cartcoupontext{
+width:36%;
+}
+
+div.cartcoupon{
+width:64%;
+}
+
+div.cobhl2{
+width:98%;
+}
+
+div.cobll2{
+width:98%;
+}
+
+
+div.cdformshipdiff{
+width:90%;
+}
+
+div.cobhl4{
+width:98%;
+}
+
+div.cobll4{
+width:98%;
+}
+  
+  div.cobhl3{
+width:40%;
+float:left;
+padding-bottom:6px;
+}
+  
+  div.cobll3{
+width:60%;
+float:left;
+padding-bottom:6px;
+}
+  
+div.cart3totgoodst {
+border-bottom:1px solid #ccc;
+  margin-bottom:12px;
+  font-size:1.1em;
+}
+
+div.cart3totgoods {
+border-bottom:1px solid #ccc;
+  margin-bottom:12px;
+    font-size:1.1em;
+}
+
+/*Styles for screens below 480px on the affiliate, order status, client login page*/
+div.ectdivright input{
+width:95%;
+}
+
+div.ectdiv2column input{
+margin:6px 0px 12px 0px;
+}
+
+div.ectdivright{
+width:95% !important;
+}
+
+div.ectdivleft{
+width:95% !important;
+}
+
+div.ectgiftcerts textarea{
+width:98%;
+}
+
+div.ectdonations textarea{
+width:98%;
+}
+
+}
+

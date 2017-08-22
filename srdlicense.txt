@@ -1,0 +1,45 @@
+End User License Agreement 
+============================
+
+Copyright 2000 - 2006 by Electronic Shopping Solutions LLC
+
+You should carefully read the following terms and conditions before using this template. 
+
+This License Agreement permits you to install the accompanying version of the template package for use on one domain. The purpose of this package is to assist you in the development of your web site for personal or commercial use, free of any royalties or fees.
+
+This template package is provided "as is" without warranty of any kind, either expressed or implied.
+
+The end-user may not sublicense, assign or distribute copies of this package to others. The end-user may not translate, rent, loan, resell for profit, distribute, or otherwise assign or transfer this package, or create derivative works based on this package or any parts thereof, except those actions necessary to create or develop a web site using this template package.
+
+In no event shall Electronic Shopping Solutions LLC be liable for any damages including, but not limited to, direct, indirect, special, incidental or consequential damages or other losses arising out of the use of or inability to use the template package. 
+
+If you have any questions regarding this agreement or otherwise need technical support, please contact:
+
+Electronic Shopping Solutions LLC
+http://www.ecommercetemplates.com/
+info@ecommercetemplates.com
+
+Licensing FAQ:
+
+Q: Can I make changes to the color, graphics and layout of the template?
+A: Yes - you can change the template to suit your needs within your HTML editor. Graphics changes require a graphics editor to do so.
+
+Q: I have three Web sites and want them all to look exactly the same. Can I use my template on all three?
+A: The license is good for setting up one store on one domain.
+
+Q: I have two clients that would like to use a template that I purchased from you as the design for their own sites. Can I customize this template for their use?.
+A: Each of your clients must first purchase (or you may purchase for them) a copy of the template from us and then you may customize it for them as needed. To use one of the templates to create multiple websites is a violation of the licensing agreement.
+
+Q: Can I resell your templates from my Web site?
+A: We have an affiliate program that allows web site owners to sell our templates from their site and earn commissions on those sale. The only manner in which you may legally resell our products is by joining our affiliate program where purchases are made through www.ecommercetemplates.com.
+
+Refund / Exchange Policy
+============================
+
+We offer a 30 Money Back Guarantee on all the products we have for sale. Please send an email to info@ecommercetemplates.com to request a refund, including the order details you received from Ecommerce Templates. Please note that successful integration services such as the Generic integration, set up site and set database connection are non-refundable once the work has been carried out.
+
+If the software is lost within 6 months of purchase we will provide a duplicate, free of charge. Outside of those six months there will be a charge of $29.95 to cover the new features that have been added.
+
+We cannot exchange templates unless there is a compatibility issue with the hosting / database, and that this occurs within 30 days of purchase. Outside of those 30 days there will be a charge of $29.95 to change from the ASP to PHP version or vice-versa.
+
+Support and updates are available free of charge for a period of 6 months from the date of purchase here www.ecommercetemplates.com/support/ and here www.ecommercetemplates.com/updaters.asp. If you require further support or would like to continue receiving updates then there is a charge of $29.95. There is no obligation to take advantage of the new features we offer.
