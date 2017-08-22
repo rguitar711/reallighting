@@ -1,0 +1,1165 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	font-family:clean, sans-serif;
+}
+/* Body properties */
+body{
+	margin:0;
+	background:#F2F6FF url('adminimages/subtlenet2.png') repeat;
+	color:#202020;
+	font-size:0.85em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* I did nothing with this, it may need adjustments to ensure good quality printing from the new styles KN */
+body.printbody{
+	margin:0;
+	padding:0;
+	background-image:none;
+	color:#000;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Typography & colours */
+h2, #main .heading{
+	font-size:1.25em;
+	font-weight:bold;
+	padding:5px 0;
+	border-bottom:1px dashed #888;
+	margin-bottom:20px;
+	color:#333;
+	text-transform:uppercase;
+	text-align:left;
+}
+
+h3{
+	background-color:#093768;
+	margin:1px 0;
+	padding:5px;
+	color:#fff;
+	font-size:1em;
+}
+h3 a{
+	color:#D6E2FF;
+}
+
+h3 a:hover{
+	color:#fff;
+}
+
+h4{
+	font-weight:bold;
+	margin-bottom:10px;
+	font-size:1.1em;
+}
+
+p{
+	margin-bottom:10px;
+	line-height:150%;
+}
+
+#adminfooter h4{
+	text-transform:uppercase;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	border-bottom:1px dashed #ccc;
+}
+
+.ectred{
+	color:#ff0000;
+}
+
+small, .small{
+	font-size:10px;
+}
+
+strong, label{
+	font-weight:bold;
+}
+
+/* Table base styles */
+table p{
+	margin-bottom:0;
+}
+
+table td{
+	padding:6px 5px;
+	font-size:100%;
+}
+
+table th{
+	padding:10px 5px;
+	font-size:100%;
+	border-bottom:5px solid #fff;
+}
+
+table th{
+	font-size:1.1em;
+}
+
+/* Form styles */
+input[type="text"],
+input[type="password"],
+select,
+textarea{
+	padding:2px 4px;
+	border:1px solid #bbb;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	font-size:inherit;
+	max-width:100%;
+	color:#444;
+}
+input[type="text"],
+input[type="password"],
+select{
+	font-size:90%;
+}
+input.small_input{
+	max-width:50px;
+}
+input.tiny_input{
+	max-width:30px;
+}
+/* these are overridden in the layout.css to ensure they fit at small screen sizes. */
+textarea.smalltxt{
+	min-width:350px;
+	min-height:90px;
+}
+textarea.largetxt{
+	min-width:350px;
+	min-height:150px;
+}
+/* Lists */
+#main ul, #main ol{
+	margin-left:20px;
+}
+
+#main ul li, #main ol li{
+	margin-bottom:5px;
+}
+
+#main ul.payprov{
+	list-style-type:none;
+	margin:20px 0 20px 20px;
+}
+
+#adminfooter ul{
+	list-style-type:none;
+	margin-bottom:10px;
+}
+
+#adminfooter ul li{
+	padding-top:5px;
+}
+/* Links */
+a{
+	color:#006;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#C00;
+	text-decoration:none;
+}
+
+a.online_help{
+	font-size:14px;
+}
+
+a.online_help{
+	font-weight:bold;
+	color:#093768;
+	padding:2px 6px;
+	background-color:#D2DDEE;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+a.online_help:hover{
+	background-color:#C1D2E7;
+}
+
+.button, input[type="button"], input[type="submit"], input[type="reset"]{
+	-moz-box-shadow:0px 1px 4px 0px #BCC8DC;
+	-webkit-box-shadow:0px 1px 4px 0px #BCC8DC;
+	box-shadow:0px 1px 4px 0px #BCC8DC;
+	background-color:#748dbe;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #5B69AE;
+	display:inline-block;
+	color:#fff;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:3px 5px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #6c79b7;
+	cursor:pointer;
+}
+.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover{
+	-moz-box-shadow:0px 1px 1px 0px #BCC8DC;
+	-webkit-box-shadow:0px 1px 1px 0px #BCC8DC;
+	box-shadow:0px 1px 1px 0px #BCC8DC;
+	background-color:#637fb6;
+	color:#fff;
+}
+.minicell input[type="button"], .minicell input[type="submit"]{
+	font-size:10px;
+	padding:2px 3px;
+cursor:pointer;
+}
+.bigbutton,input[type="button"].bigbutton, input[type="submit"].bigbutton{
+	padding:5px 20px;
+	font-size:12px;
+cursor:pointer;
+}
+div.separator{
+	margin:5px;
+	height:22px;
+	border-bottom:1px solid #D2DDEE;
+}
+
+/* MAIN DIVS */
+/* Header */
+#header1{
+	width:90%;
+	background:#3E4A7E;
+	margin:0 5%;
+	padding:0;
+	height:30px;
+	color:#fff;
+	font-size:90%;
+	border-bottom:1px solid #D2DDEE;
+}
+#header1 p{
+	padding:0 5px;
+}
+#header1 p.log-out a{
+	padding-right:20px;
+	background:url('adminimages/logout.png') right center no-repeat;
+}
+#header1 a{
+	color:#fff;
+}
+
+#header{
+	background-color:#5270AE;
+	padding:0;
+	margin:0 0 1px 0;
+	min-height:80px;
+	width:90%;
+	margin:0 5% 10px 5%;
+	
+}
+
+.logotop{
+	float:left;
+}
+
+.toplinks{
+	float:right;
+	text-align:right;
+	padding-top:10px;
+	background-color:#5270AE;
+}
+
+.toplinks a img{
+	margin-right:20px;
+}
+
+/* Left menu */
+#admin_menu{
+	width:90%;
+	margin:0 5%;
+	padding:0;
+	clear:both;
+	position:relative;z-index:2;
+}
+
+/* Main */
+#main{
+	clear:both;
+	width:86%;
+	margin:20px 5%;
+	padding:20px 2%;
+	background:#FFF;
+	color:#000;
+	position:relative;
+}
+/* Footer */
+#adminfooter{
+	width:86%;
+	margin:10px 5%;
+	padding:10px 2%;
+	clear:both;
+	background:#fff;
+}
+/* SPECIAL DIVS */
+.pagebar{
+	font-size:10px;text-align:right;padding:5px;
+}
+.pagebar .currpage{
+	font-weight:bold;font-size:11px;
+}
+.shrink_wrapper{ width:100%;overflow:auto; }
+
+
+.infobox, .noticebox{
+	background-color:#FAFAFA;
+	padding:10px;
+	border:1px solid #EDEDED;
+	overflow:auto;
+	margin:10px 0;
+}
+
+.bluebox{
+	background-color:#F2F6FF;
+	border:1px solid #D6E2FF;
+}
+
+.infobox{
+	font-size:0.9em;
+}
+
+.home_boxes{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:0;
+}
+
+.home_boxes .box{
+	padding:0 0 5px 0;
+	background:#D2DDEE;
+	overflow:auto;
+	margin-bottom:5px;
+}
+
+.home_boxes .box_title{
+	background-color:#093768;
+	padding:5px 0 2px 0;
+	text-align:left;
+}
+
+.home_boxes .box_title h3{
+	padding:2px 0 5px 5px;
+	margin:0;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.home_boxes .new_alert, .home_boxes .new_alert h3{
+	background-color:#88BF41;
+}
+
+.home_boxes .box_title a.online_help{
+	float:right;
+	margin:0 5px 0 0;
+}
+
+.home_boxes .box_new{
+	font-size:1.25em;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+.logout, .login_message{
+	width:70%;
+	margin:60px auto;
+	border:1px dotted #eee;
+	background-color:#f4f4f4;
+	padding:10px 20px;
+}
+
+.login_form{
+	width:420px;
+	margin:60px auto;
+	background-color:#f6f6f6;
+	border:1px solid #eee;
+	text-align:center;
+}
+
+.login_header{
+	background:#5270AE url('adminimages/logo.jpg')top center no-repeat;
+	height:64px;
+	margin-bottom:20px;
+}
+
+.login_form p.credit{
+	margin-top:20px;
+	font-size:0.8em;
+}
+
+.search_block{
+	background-color:#FAFAFA;
+	padding:10px;
+	border:1px solid #FAFAFA;
+	overflow:auto;
+	margin-bottom:25px;
+}
+
+.addressbox label{
+	display:inline-block;
+	width:100px;
+}
+
+.addressbox div{
+	padding:5px 0;
+	margin-top:0;
+	margin-bottom:5px;
+}
+
+/* Update Checker */
+.updatecheck{
+	background-color:#FAFAFA;
+	padding:10px;
+	border:1px solid #FAFAFA;
+	font-size:10px;
+	overflow:auto;
+}
+
+.current_version{
+	float:left;
+	font-weight:bold;
+	font-size:11px;
+	padding-top:5px;
+	padding-left:20px;
+	background:transparent url('adminimages/icon-green-tick.png') 0 3px no-repeat;
+}
+
+.old_version{
+	padding-left:10px;
+	background:transparent url('adminimages/alert.png') 0 3px no-repeat;
+}
+
+.updates_okay{
+	text-align:right;
+}
+
+.should_update{
+	font-weight:bold;
+	font-size:11px;
+	text-align:right;
+}
+
+.should_update a{
+	padding-left:30px;
+	padding-top:5px;
+	background:transparent url('adminimages/update.png') left center no-repeat;
+	height:20px;
+	display:inline-block;
+}
+.security_update span{
+	color:#C00000;
+}
+.security_update a{
+	background:transparent url('adminimages/update-security.png') left center no-repeat;
+}
+
+#mainprint{
+	margin:0;
+	background:#FFF;
+	padding:2px;
+}
+
+/*  Tables */
+table.quickstats{
+	width:100%;
+	border-collapse:collapse;
+}
+
+table.quickstats td{
+	vertical-align:top;
+	border-bottom:1px dotted #D2DDEE;
+}
+
+table.quickstats td.nobottom{
+	border-bottom:0;
+}
+
+table.quickstats th{
+	background-color:#5270AE;
+	vertical-align:middle;
+	color:#fff;
+}
+table.quickstats td, table.quickstats th{
+	text-align:center;
+}
+table.neworders td, table.neworders th{
+	text-align:left;
+}
+table.neworders th{
+	background-color:#093768;
+}
+table.fivetable td{
+	border-bottom:0;
+}
+table.ordtbl td{
+	padding:2px;
+}
+table.stattbl td{
+	padding:2px 6px 2px 2px;
+}
+td.adtabcon{
+	width:50%;
+	vertical-align:top;
+}
+/*  The responsive table - always used with id=responsive. Javascript in vsadmin/assets */
+.admin-table-a{
+	margin:0 0 10px 0;
+	width:100%;
+	text-align:left;
+	padding:0;
+	border-collapse:collapse;
+}
+.admin-table-a th{
+	font-weight:bold;
+	color:#fff;
+	background-color:#093768;
+	text-align:left;
+}
+.admin-table-a th a{
+	color:#A8B8D6;
+}
+.admin-table-a th a:hover{
+	color:#fff;
+}
+.admin-table-a td{
+	background:#F5F5F5;
+	border-bottom:1px dotted #D2DDEE;
+	color:#333;
+}
+.admin-table-a tr:hover td{
+	background:#FAFAFA;
+	color:#333;
+}
+td.st-val, td.st-val{
+	font-size:11px;
+	padding:2px 5px;
+}
+
+/* show/hide responsive tables. By default hide the small one. .admin-table-a-small is added by JS. Styles for it are in layout.css */
+.stacktable.admin-table-a{
+	display:table;
+}
+.admin-table-a-small{
+	display:none;
+}
+/*  alt background colour for responsive tables */
+.sta-white td{background-color:#fff;}
+.admin-table-b{
+	margin:0;
+	width:100%;
+	margin-bottom:10px;
+	text-align:left;
+	border-collapse:collapse;
+}
+.admin-table-b th{
+	color:#fff;
+	text-align:left;
+	background-color:#5270AE;
+}
+.admin-table-b td{
+	background:#FFF;
+	border-bottom:1px dotted #D2DDEE;
+	color:#333;
+}
+.admin-table-b tr:hover td{
+	background:#FAFAFA;
+	color:#333;
+}
+td.new{
+	font-weight:bold;
+	color:#C00;
+	width:1%;
+}
+hr{
+	color:#f6f6f6;
+	background-color:#f6f6f6;
+	border:1px solid #f6f6f6;
+}
+table.cobtbl{
+	background-color:#EEF3F7;
+	width:100%;
+}
+table.ordtbl{
+	background-color:#f6f6f6;
+}
+td.cobhl, th{
+	background-color:#FFF;
+}
+td.cobll{
+	background-color:#FFF;
+}
+tr.cobhl{
+	background-color:#f6f6f6;
+}
+tr.cobll{
+	background-color:#FFF;
+}
+tr.cobwarn{
+	background-color:#FEF1F1;
+}
+td.label{
+	width:30%;
+}
+/* Minicell if used for cells that have buttons in them - eg modify, assign, delete. Makes button smaller. */
+td.minicell,th.minicell{width:10%;text-align:center;}
+th.minicell{font-weight:bold;}
+td.maincell,th.maincell{width:30%;}
+
+/* Used in inccats.php to separate top categories into groups.. */
+td.spacer_cell{border-top:1px solid #748BBD;border-bottom:0;font-size:1px;padding:3px;}
+
+/* Styles for responsive menu. This is the small version - large version is in layout.css */
+[role='main']{
+	margin:5% auto;
+}
+[role='navigation']{
+	margin:0 auto;
+	width:100%;
+	background-color:#5270AE;
+}
+.mainnav-touch [role='navigation'],
+.mainnav-no-touch [role='navigation']{
+	display:none;
+}
+.menu-button{
+	display:block;
+	padding:1em;
+	background:#093768;
+	color:#fff;
+	background-image:url('adminimages/arrow-down.png');
+	background-repeat:no-repeat;
+	background-position:93% 10px;
+	cursor:pointer;
+	font-size:1em;
+	text-transform:uppercase;
+}
+[role='navigation']:after{
+/* clearfix */
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+[role='navigation'] li{
+	position:relative;
+	list-style:none;
+	display:block;
+	background-color:#5270AE;
+	width:100%;
+	font-size:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+[role='navigation'] li.item-with-ul{
+	background-color:#093768;
+}
+[role='navigation'] li a{
+	min-width:50px;
+	margin-right:20%;
+	display:block;
+	color:#D6E2FF;
+	border-bottom:1px solid #093768;
+}
+[role='navigation'] li a:hover{
+	color:#fff;
+	font-weight:bold;
+}
+[role='navigation'] .top-level a{
+	position:relative;
+	display:block;
+	background-color:#5270AE;
+	padding:1em;
+	z-index:2;
+	text-decoration:none;
+}
+[role='navigation'] li ul{
+	width:100%;
+	position:relative;
+	border-top:1px solid #5270AE;
+	border-bottom:1px solid #5270AE;
+}
+[role='navigation'] li ul li{
+	float:none;
+	width:100%;
+	text-transform:none;
+}
+[role='navigation'] li ul li a{
+	display:block;
+	background-color:#5270AE;
+	text-decoration:none;
+	font-weight:normal;
+}
+[role='navigation'] .sub-menu a{
+	padding:0.5em 0.5em 0.5em 1.5em;
+}
+[role='navigation'] .item-with-ul{
+	background:url('adminimages/arrow-down.png') 93% 10px no-repeat;
+}
+.sub-menu{
+	display:none;
+}
+.sub-menu.open{
+	display:block;
+}
+/* Utility classes:not sure that all are used, I kinda tend to throw these in in case they are needed */
+.centerit{
+	text-align:center;
+}
+.centerit table{
+	margin:5px auto;
+}
+.clear{
+	clear:both;
+}
+.smaller{
+	font-size:90%;
+}
+.full_top{
+	margin-top:20px;
+}
+.half_top{
+	margin-top:10px;
+}
+.double_top{
+	margin-top:40px;
+}
+.no_top{
+	margin-top:0;
+}
+.full_bottom{
+	margin-bottom:20px;
+}
+.half_bottom{
+	margin-bottom:10px;
+}
+.no_bottom{
+	margin-bottom:0;
+}
+.aright{text-align:right;}
+.aleft{text-align:left;}
+.acenter{text-align:center;}
+/* Andy edit */
+th.acenter{text-align:center;color:#fff;font-weight:bold;background:#093768;}
+td.dkcenter{color:#fff;font-weight:bold;background:#093768;}
+hr.dash{
+height:0;
+border-width:1px 0 0 0;
+border-style:dashed;
+border-color:#ccc;
+}
+
+/* style for items that appear on small screens or medium screens only. Used only once, to add a label in incorders.php for a dropdown that would look odd without one in the responsive table. Overridden in layout.css as appropriate */
+.medonly{display:none;}
+
+/* Rounded corner styles */
+.round_top{
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+.round_bottom{
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.round_all{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	overflow:auto;
+}
+.textarea{font-size:12px;}
+#header1 p.viewstore a{
+	padding-left:20px;
+	background:url('adminimages/viewstore.png') left center no-repeat;
+}
+/* Base  responsive width divs */
+.full-width{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.one_half, .inner_half{
+	width:48%;
+}
+.one_third{
+	width:32.66%;
+}
+.two_thirds{
+	width:65.33%;
+}
+.one_fourth{
+	width:22%;
+}
+.three_fourths{
+	width:74%;
+}
+.one_sixth{
+	width:15.8%;
+}
+.one_half,
+.inner_half,
+.two_thirds,
+.one_fourth,
+.three_fourths{
+ position:relative;
+ margin-right:4%;
+ margin-bottom:0;
+ float:left;
+ padding:5px 0;
+}
+
+.one_sixth{
+ position:relative;
+ margin-right:1%;
+ margin-bottom:0;
+ float:left;
+ padding:5px 0;
+}
+
+.one_third{
+	position:relative;
+	margin-right:1%;
+	margin-bottom:0;
+	float:left;
+	padding:5px 0;
+}
+.last{
+	margin-right:0;
+}
+.row{
+	width:100%;
+	margin-bottom:10px;
+	padding:10px 0;
+	overflow:auto;
+}
+.dashrow{
+	padding:5px 0;
+	margin:5px 0;
+	border-top:1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+}
+
+/* #Responsive menu
+================================================== */
+/* Enlarged fullwidth menu at breakpoint that can take it */
+@media all and (min-width:800px){
+	.mainnav-touch [role='navigation'],
+	.mainnav-no-touch [role='navigation']{
+		display:block;
+	}
+	.menu-button{
+		display:none;
+	}
+	[	role='navigation'] li{
+		position:relative;
+		list-style:none;
+		float:left;
+		display:block;
+		background-color:#5270AE;
+		width:25%;
+	}
+	.mainnav-no-touch .item-with-ul:hover > ul{
+		opacity:1;
+		top:3.1em;
+		position:absolute;
+	}	
+	[	role='navigation'] li a{
+		border-left:1px solid #093768;
+		border-bottom:none;
+		min-width:50px;
+	}
+	.mainnav-no-touch [role='navigation'] li ul{
+		position:absolute;
+		top:auto;
+		left:0;
+		opacity:0;
+		visibility:hidden;
+		height:1px;
+		z-index:1;
+	}
+	[	role='navigation'] li ul li a{
+		border-bottom:none;
+	}
+	.mainnav-touch [role='navigation'] li ul.sub-menu{
+		position:absolute;
+		top:auto;
+		left:0;
+		display:none;
+		z-index:1;
+	}
+
+	.mainnav-no-touch .item-with-ul:hover > ul{
+		visibility:visible;
+		opacity:1;
+		height:auto;
+		display:block;
+		border-right:1px solid #093768;
+		border-bottom:1px solid #093768;
+	}
+
+	.mainnav-no-touch .second-level.item-with-ul:hover > ul{
+		margin-left:100%;
+		top:0;
+	}
+
+	h3{
+		font-size:1.1em;
+		padding:10px 5px;
+		font-weight:bold;
+	}
+}
+/* #Tablet (landscape)
+================================================== */
+/* Designed for a width of 895px */
+/* A few things that are a bit narrow at this resolution. */
+@media (max-width:895px){
+	#main .one_third{
+		width:100%;
+		margin-right:0;
+	}
+	.one_sixth{
+		width:30.33%;
+		margin-right:1.5%;
+		margin-left:1.5%;
+	}
+	.home_boxes .last{
+		margin-right:1.5%;
+	}
+	.med_block{
+		display:block;
+		clear:both;
+		margin:0;
+		padding:2px 0;
+	}
+#header1{
+	width:98%;
+	margin:0 1%;
+	}
+	#header{
+	width:98%;
+	margin:0 5% 10px 1%;
+}
+#admin_menu{
+	width:98%;
+	margin:0 1%;
+}
+#main{
+	width:96%;
+	margin:20px 1%;
+	padding:20px 1%;
+}
+#adminfooter{
+	width:96%;
+	margin:10px 1%;
+	padding:10px 1%;
+}
+}
+
+/* #Tablet (Portrait)
+================================================== */
+/* Note:Designed for a width of 768px */
+@media (max-width:767px){
+	body{
+		font-size:0.8em;
+	}
+
+	td.minicell, th.minicell{width:auto;}
+	td.minicell input, th.minicell input{font-size:90%;}
+	.stacktable.admin-table-a-small{
+		display:table;
+	}
+
+	.admin-table-a-small{
+		width:100%;
+	}
+
+	.admin-table-a-small th{
+		padding:5px;
+		font-weight:bold;
+		text-align:left;
+		background-color:#EAECE7;
+	}
+
+	.admin-table-a-small th.st-head-row-main{
+		background-color:#fff;
+	}
+
+	.admin-table-a-small td.st-key{
+		text-align:left;
+		font-weight:bold;
+		max-width:30%;
+		padding:5px 5px 5px 10px;
+		font-size:12px;
+		border-bottom:1px dashed #eee;
+	}
+	.admin-table-a-small td.st-val{
+		text-align:left;
+		font-size:12px;
+		padding:5px 5px;
+		border-bottom:1px dashed #eee;
+	}
+
+	.one_half, .one_third, .two_thirds{
+		float:none;
+		width:100%;
+		margin-right:0;
+		
+	}
+
+	label.block_label{
+		width:120px;
+		display:block;
+		float:left;
+	}
+
+	.fivetable td{
+		text-align:center;
+	}
+
+	.fivetable label{
+		display:block;
+		clear:both;
+	}
+	
+	.medonly{display:inline;}
+	.largeonly{display:none;}
+	.largetosmall{width:110px;}
+
+	.shrink_wrapper th{font-size:0.9em;}
+	.shrink_wrapper td{font-size:0.8em;}
+}
+
+/* #Mobile
+================================================== */
+/* Designed for a width of 488px */
+/* Addtions and overrides to changes already made for tablet portrait size. */
+
+@media all and (max-width:488px){
+	body{
+		font-size:0.75em;
+	}
+
+	#header{
+		width:96%;
+		margin:0 2% 10px 2%;
+	}
+	
+	#header1{
+		width:98%;
+		margin:0 1%;
+	}
+
+	#admin_menu{
+		width:96%;
+		margin:5px 2%;
+	}
+
+	#main, #adminfooter{
+		width:92%;
+		margin:10px 2%;
+	}
+
+	.login_form{
+		width:280px;
+	}
+
+	.logotop{
+		clear:both;
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+
+	.toplinks{
+		clear:both;
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+
+	.toplinks a img{
+		width:24px;
+		height:24px;
+		margin:0 5px;
+	}
+
+	.one_half,
+	.one_third,
+	.two_thirds,
+	.one_fourth,
+	.three_fourths{
+		float:none;
+		width:100%;
+		margin-right:0;
+		padding:5px 0;
+	}
+
+	label.block_label{
+		padding-bottom:5px;
+		float:none;
+		
+	}
+
+	.one_sixth{
+		width:46%;
+		margin-left:2%;
+		margin-right:2%;
+	}
+	
+	.footer_half{
+		width:48%;
+		margin-left:1%;
+		margin-right:1%;
+		float:left;
+	}
+
+	.home_boxes .last{
+		margin-right:2%;
+	}
+
+	.small_block{
+		display:block;
+		clear:both;
+		margin:0;
+		padding:2px 0;
+	}
+	
+	.smallonly{display:inline;}
+	.medium_input,.large_input{width:120px;}
+	.largetosmall{width:75px;}
+	textarea.smalltxt,textarea.largetxt{max-width:200px;min-width:120px;}	
+}
